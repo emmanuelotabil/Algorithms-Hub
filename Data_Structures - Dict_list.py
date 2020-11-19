@@ -6,7 +6,7 @@ print('\n\t\t1. Number of extra dollars spent in February compared to January.')
 
 extra = expense[1]-expense[0]
 
-print('\nExtra is ',extra) 
+print('\nExtra dollars spent in February is ',extra) 
 
 quarter_expenses = []
 
@@ -20,7 +20,7 @@ for i in range(0,3):
 
 total = sum(quarter_expenses)
 
-print('\nTotal expense in first quarter is ',total)
+print('\nTotal expense in first quarter is $',total)
 
 print('\n\n\t\t3. Find if exactly 2000 was spent in any month')
 
