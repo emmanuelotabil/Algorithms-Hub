@@ -20,3 +20,7 @@ if 2000 in expense:
     print('Yes, exactly 2000 was spent in a certain month')
 else: 
     print('No month had an exact expense of 2000')
+
+print('4. Add June to expense list')
+month_expense['June'] = 1980
+print(month_expense)
