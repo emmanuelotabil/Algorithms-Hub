@@ -5,7 +5,16 @@ iii. March - 2600
 iv. April - 2130
 v. May - 2190
 
+Based on the data above, find:
+1. Number of extra dollars spent in February compared to January.
 
+2. Total expense for the first quarter.
+
+3. Find if exactly 2000 was spent in any month
+
+4. New expense list when that of June is added - 1980 dollars
+
+5. New expense list when a refund is made from an item purchased in April
 '''
 
 
