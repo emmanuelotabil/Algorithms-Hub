@@ -2,15 +2,15 @@ month_expense = {'January':2200,'February':2350,'March':2600,'April':2130,'May':
 month = list(month_expense.keys())
 expense = list(month_expense.values())
 
-print('1. Number of extra dollars spent in February compared to January.')
+print('\n\t\t1. Number of extra dollars spent in February compared to January.')
 
 extra = expense[1]-expense[0]
 
-print('Extra is ',extra) 
+print('\nExtra is ',extra) 
 
 quarter_expenses = []
 
-print('2. Total expense for the first quarter.')
+print('\n\n\t\t2. Total expense for the first quarter.')
 
 for i in range(0,3):
 
@@ -20,24 +20,24 @@ for i in range(0,3):
 
 total = sum(quarter_expenses)
 
-print('Total expense in first quarter is ',total)
+print('\nTotal expense in first quarter is ',total)
 
-print('3. Find if exactly 2000 was spent in any month')
+print('\n\n\t\t3. Find if exactly 2000 was spent in any month')
 
 if 2000 in expense:
-    print('Yes, exactly 2000 was spent in a certain month')
+    print('\nYes, exactly 2000 was spent in a certain month')
 
 else: 
-    print('No month had an exact expense of 2000')
+    print('\nNo month had an exact expense of 2000')
 
-print('4. Add June to expense list')
+print('\n\n\t\t4. Add June to expense list')
 
 month_expense['June'] = 1980
 
-print(month_expense)
+print('\n',month_expense)
 
-print('Make amends to the expense in April')
+print('\n\n\t\t5. Make amends to the expense in April')
 
 month_expense['April'] = 2130 - 2005
 
-print(month_expense)
+print('\n',month_expense)
