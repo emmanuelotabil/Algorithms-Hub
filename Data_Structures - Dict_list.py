@@ -24,3 +24,7 @@ else:
 print('4. Add June to expense list')
 month_expense['June'] = 1980
 print(month_expense)
+
+print('Make amends to the expense in April')
+month_expense['April'] = 2130 - 2005
+print(month_expense)
