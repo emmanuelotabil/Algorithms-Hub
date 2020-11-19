@@ -1,3 +1,14 @@
+'''Given that expenses for some months are listed below
+i. January- 2200
+ii. February - 2350
+iii. March - 2600
+iv. April - 2130
+v. May - 2190
+
+
+'''
+
+
 month_expense = {'January':2200,'February':2350,'March':2600,'April':2130,'May':2190}
 month = list(month_expense.keys())
 expense = list(month_expense.values())
