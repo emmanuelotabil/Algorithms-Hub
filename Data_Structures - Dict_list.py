@@ -54,7 +54,9 @@ print('\n\n\t\t4. Add June to expense list')
 
 month_expense['June'] = 1980
 
-print('\n',month_expense)
+print('Updated expense list after adding the expense of June is :')
+for key , value in month_expense.items():
+    print('\n-',key,'--',value)
 
 print('\n\n\t\t5. Make amends to the expense in April')
 
