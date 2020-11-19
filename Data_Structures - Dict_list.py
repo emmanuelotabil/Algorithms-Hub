@@ -14,3 +14,9 @@ for i in range(0,3):
     quarter_expenses.append(amount)
 total = sum(quarter_expenses)
 print('Total expense in first quarter is ',total)
+
+print('3. Find if exactly 2000 was spent in any month')
+if 2000 in expense:
+    print('Yes, exactly 2000 was spent in a certain month')
+else: 
+    print('No month had an exact expense of 2000')
