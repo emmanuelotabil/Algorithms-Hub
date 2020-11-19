@@ -62,4 +62,6 @@ print('\n\n\t\t5. Make amends to the expense in April')
 
 month_expense['April'] = 2130 - 2005
 
-print('\n',month_expense)
+print('Updated expense list after refund is:')
+for key , value in month_expense.items():
+    print('\n-',key,'--',value)
